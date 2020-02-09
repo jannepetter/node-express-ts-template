@@ -5,8 +5,17 @@ npm init                              //creates package.json
 npm install typescript --save-dev	
 npm install @types/node --save-dev
 npx tsc --init                        //creates tsconfig.json
-                                      //at the time of writing had all needed configs uncommented exept
-                                      //"resolveJsonModule": true   (needed for nodemon)
+                                      //"target": "es5",
+                                      //"module": "commonjs",
+                                      //"lib": ["ES6"],
+                                      //"allowJs": true,
+                                      //"outDir": "./build", 
+                                      //"rootDir": "./",
+                                      //"strict": true,
+                                      //"noImplicitAny": true, 
+                                      //"esModuleInterop": true,
+                                      //"resolveJsonModule": true,   (needed for nodemon)
+                                      //"forceConsistentCasingInFileNames": true
 npm install --save-dev ts-node
 npm install --save-dev nodemon
 -create file nodemon.json
